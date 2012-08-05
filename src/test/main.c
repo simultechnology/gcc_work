@@ -7,5 +7,6 @@ int main(int argc, const char* argv[]) {
   printf("test");
   printf("------------------");
   printf("end!!");
+  printf("stop");
   return 0;
 }
