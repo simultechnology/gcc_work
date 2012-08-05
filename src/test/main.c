@@ -6,5 +6,6 @@ int main(int argc, const char* argv[]) {
   printf("aaaa");
   printf("test");
   printf("------------------");
+  printf("end!!");
   return 0;
 }
