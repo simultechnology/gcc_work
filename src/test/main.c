@@ -8,5 +8,6 @@ int main(int argc, const char* argv[]) {
   printf("------------------");
   printf("end!!");
   printf("stop");
+  printf("finish!");
   return 0;
 }
