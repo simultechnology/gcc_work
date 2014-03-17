@@ -13,11 +13,20 @@ int main(int argc, const char* argv[]) {
   {
   case -1:
     perror("fork faild");
-    exit(0);
-
+    exit(1);
   case 0:
     message = "This is the child";
-
+    n = 5;
+    break;
+  default:
+    message = "This is the parent";
+    n = 3;
+    break;
   }
-  return 0;
+
+  for (; n > 0; n--) {
+    puts(message);
+    sleep(1);
+  }
+  exit(0);
 }
